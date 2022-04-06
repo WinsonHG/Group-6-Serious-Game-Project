@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
     {
         if (rigid == null)
             rigid = GetComponent<Rigidbody2D>();
-        speed = 15;
+        speed = 10;
     }
 
     // Update is called once per frame
@@ -27,13 +27,13 @@ public class Movement : MonoBehaviour
         movement = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Jump"))
             jumpPressed = true;
-        
+
     }
 
     //called potentially multiple times per frame
     //used for physics & movement
     void FixedUpdate()
-    { 
+    {
         rigid.velocity = new Vector2(movement * speed, rigid.velocity.y);
         if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
             Flip();
