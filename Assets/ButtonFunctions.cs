@@ -9,20 +9,28 @@ public class ButtonFunctions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void PlayGame() {
+    public void PlayGame()
+    {
         SceneManager.LoadScene("level1");
     }
 
-    public void MainMenu() {
+    public void MainMenu()
+    {
         SceneManager.LoadScene("Menu");
     }
+
+    public void Instructions()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
 }
