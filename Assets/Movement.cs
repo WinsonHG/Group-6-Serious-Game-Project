@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
     {
         if (rigid == null)
             rigid = GetComponent<Rigidbody2D>();
-        speed = 10;
+        speed = 5;
     }
 
     // Update is called once per frame
