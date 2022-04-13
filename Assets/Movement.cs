@@ -11,7 +11,6 @@ public class Movement : MonoBehaviour
     [SerializeField] bool jumpPressed = false;
     [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
-    [SerializeField] bool shiftPressed = false;
 
     // Start is called before the first frame update
     void Start()
