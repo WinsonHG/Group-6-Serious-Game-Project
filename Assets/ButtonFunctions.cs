@@ -22,6 +22,10 @@ public class ButtonFunctions : MonoBehaviour
     {
         SceneManager.LoadScene("level1");
     }
+    public void PlayGame2()
+    {
+        SceneManager.LoadScene("level2");
+    }
 
     public void MainMenu()
     {
@@ -31,6 +35,14 @@ public class ButtonFunctions : MonoBehaviour
     public void Instructions()
     {
         SceneManager.LoadScene("Instructions");
+    }
+    public void backGround()
+    {
+        SceneManager.LoadScene("backGround");
+    }
+    public void funFact()
+    {
+        SceneManager.LoadScene("funFact");
     }
 
 }
