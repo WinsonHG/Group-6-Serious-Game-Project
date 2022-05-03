@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - ShowInPauseMode
+  - ShowInResumeMode
   layers:
   - Default
   - TransparentFX
@@ -41,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 1318203001
+    locked: 0
+  - name: Foreground
+    uniqueID: 320633983
+    locked: 0
+  - name: Coin
+    uniqueID: 2887449239
     locked: 0
   - name: Default
     uniqueID: 0
