@@ -44,5 +44,9 @@ public class ButtonFunctions : MonoBehaviour
     {
         SceneManager.LoadScene("funFact");
     }
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
 
 }
