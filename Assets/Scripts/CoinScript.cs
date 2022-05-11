@@ -9,7 +9,10 @@ public class CoinScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (controller == null)
+        {
+            controller = GameObject.FindGameObjectWithTag("GameController");
+        }
         if (audio == null)
         {
             audio = GetComponent<AudioSource>();
@@ -26,8 +29,12 @@ public class CoinScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-       //  controller.GetComponent<Scorekeeper>().UpdateScore();
-        AudioSource.PlayClipAtPoint(audio.clip, transform.position);
-        Destroy(gameObject);
+        if (collider.tag == "Player")
+        {
+            Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+            controller.GetComponent<Scorekeeper>().UpdateScore();
+
+        }
     }
 }
