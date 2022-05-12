@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/level2.unity
     guid: b06f4bfdf8e010c419678fa27e02a55a
   - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: 458f41ddfebd8c04c98e4e65b1825817
+  - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: a73e068e8ac09b4429ceee5a7ac5453e
   - enabled: 1
@@ -26,4 +29,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: ae3c9d9d5bbe50e4587bf62f5bcf69d4
+  - enabled: 1
+    path: Assets/Scenes/Option1.unity
+    guid: 73a3d89fa91996d45852ab936aeb340d
+  - enabled: 1
+    path: Assets/Scenes/Option2.unity
+    guid: 462cfff0b42e4ae4d9a2fd116da34896
+  - enabled: 1
+    path: Assets/Scenes/Option3.unity
+    guid: 930ba9633e46583498835810e4559e3f
+  - enabled: 1
+    path: Assets/Scenes/WrongAnswer.unity
+    guid: 265a3702fd6c8e24595f9435fa200a4c
+  - enabled: 1
+    path: Assets/Scenes/HighScores.unity
+    guid: 1f8a92e9ff9090045add1e9092c82d35
   m_configObjects: {}
