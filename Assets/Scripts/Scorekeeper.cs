@@ -43,9 +43,10 @@ public class Scorekeeper : MonoBehaviour
     {
         score += addend;
         DisplayScore();
+
         PersistentData.Instance.SetScore(score);
 
-        Invoke("DelayedAction", 0.5f);
+        Invoke("DelayedAction", 0.75f);
     }
 
     public void UpdateScore()
@@ -61,7 +62,7 @@ public class Scorekeeper : MonoBehaviour
     public void DisplayLevel()
     {
         int levelToDisplay = level;
-        levelTxt.text = "Level " + levelToDisplay;
+        levelTxt.text = "Level: " + levelToDisplay;
     }
 
     public void DisplayName()
@@ -70,12 +71,22 @@ public class Scorekeeper : MonoBehaviour
     }
     public void DelayedAction()
     {
+        level = SceneManager.GetActiveScene().buildIndex;
         if (score >= scoreThresholdForThisLevel)
         {
-            //move on to next level
-            SceneManager.LoadScene(level + 1);
+            if (level == 1)
+            {
+                SceneManager.LoadScene("Option1");
+            }
+            if (level == 2)
+            {
+                SceneManager.LoadScene("Option2");
+            }
+            if (level == 3)
+            {
+                SceneManager.LoadScene("Option3");
+            }
 
         }
-
     }
 }
