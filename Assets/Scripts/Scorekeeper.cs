@@ -25,7 +25,7 @@ public class Scorekeeper : MonoBehaviour
         if (level == 2)
             scoreThresholdForThisLevel = 10;
         if (level == 3)
-            scoreThresholdForThisLevel = 15;
+            scoreThresholdForThisLevel = 16;
 
         //display score
         DisplayScore();
