@@ -54,7 +54,41 @@ public class ButtonFunctions : MonoBehaviour
         SceneManager.LoadScene("Settings");
 
     }
-    public void WrongAnswer()
+
+    public void WrongAnswerDelay()
+    {
+
+        if (SceneManager.GetActiveScene().buildIndex == 8) // Option 1 scene
+            Invoke("WrongAnswerOption1", 1f);
+        if (SceneManager.GetActiveScene().buildIndex == 9) // Option 2 scene
+            Invoke("WrongAnswerOption2", 1f);
+        if (SceneManager.GetActiveScene().buildIndex == 10) // Option 3 scene
+            Invoke("WrongAnswerOption3", 1f);
+    }
+    public void WrongAnswerOption1()
+    {
+        PersistentData.Instance.SetScore(0);
+        SceneManager.LoadScene("level1");
+
+    }
+    public void WrongAnswerOption2()
+    {
+        PersistentData.Instance.SetScore(5);
+        SceneManager.LoadScene("level2");
+
+    }
+    public void WrongAnswerOption3()
+    {
+        PersistentData.Instance.SetScore(10);
+        SceneManager.LoadScene("level3");
+
+    }
+    public void WrongAnswerOption4()
+    {
+        SceneManager.LoadScene("WrongAnswer");
+
+    }
+    public void WrongAnswerOption5()
     {
         SceneManager.LoadScene("WrongAnswer");
 
@@ -63,7 +97,6 @@ public class ButtonFunctions : MonoBehaviour
     {
         PersistentData.Instance.SetScore(0);
         SceneManager.LoadScene("level1");
-        PersistentData.Instance.SetScore(0);
 
     }
     public void QuestionOneCorrect()
