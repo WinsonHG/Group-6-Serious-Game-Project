@@ -459,7 +459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Option2
+  m_Text: 250,000
 --- !u!222 &162338713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.373108, y: 128}
+  m_AnchoredPosition: {x: 19.373108, y: 94.6}
   m_SizeDelta: {x: 541.927, y: 113.9255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298469264
@@ -527,7 +527,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 26
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -538,12 +538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This question will be implemented
-
-    choose option1 to continue
-
-    option2
-    to restart with 0 score.'
+  m_Text: How many people are homeless in the US on a given night?
 --- !u!222 &298469265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1114,7 +1109,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Option1
+  m_Text: 550,000
 --- !u!222 &925913109
 CanvasRenderer:
   m_ObjectHideFlags: 0
