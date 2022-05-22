@@ -21,11 +21,15 @@ public class Scorekeeper : MonoBehaviour
         score = PersistentData.Instance.GetScore();
         level = SceneManager.GetActiveScene().buildIndex;
         if (level == 1)
-            scoreThresholdForThisLevel = 5;
+            scoreThresholdForThisLevel = 5; //collect 5 coins // 5 total
         if (level == 2)
-            scoreThresholdForThisLevel = 10;
+            scoreThresholdForThisLevel = 10; //collect 5 coins // 10 total
         if (level == 3)
-            scoreThresholdForThisLevel = 16;
+            scoreThresholdForThisLevel = 16; //collect 6 coins // 16 total
+        if (level == 4)
+            scoreThresholdForThisLevel = 17; //collect x coins // 17 total
+        if (level == 5)
+            scoreThresholdForThisLevel = 18; //collect x coins // 18 total
 
         //display score
         DisplayScore();
@@ -85,6 +89,14 @@ public class Scorekeeper : MonoBehaviour
             if (level == 3)
             {
                 SceneManager.LoadScene("Option3");
+            }
+            if (level == 4)
+            {
+                SceneManager.LoadScene("Option4");
+            }
+            if (level == 5)
+            {
+                SceneManager.LoadScene("Option5");
             }
 
         }
