@@ -472,6 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c76d9cf37c2eec43b54c9b23ae7811b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNameInput: {fileID: 0}
 --- !u!1 &1195511990
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +828,8 @@ MonoBehaviour:
 
 
     Objective is to collect
-    all the coins and select which path to go down(will be added)
+    all the items by jumping on the platforms, these items are the daily necessities
+    of the homelessness.
 
 '
 --- !u!222 &1977399884

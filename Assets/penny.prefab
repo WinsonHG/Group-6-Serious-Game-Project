@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1907551602210422410}
   - component: {fileID: 6081046043116569965}
   - component: {fileID: 2293715993021859254}
-  - component: {fileID: 1371329330223026886}
+  - component: {fileID: 6944152205051517891}
   m_Layer: 0
   m_Name: penny
   m_TagString: Untagged
@@ -212,7 +212,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &1371329330223026886
+--- !u!95 &6944152205051517891
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ Animator:
   m_GameObject: {fileID: 7055084742478932475}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3a63b38293d80341a702f8728c7f425, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2a3281a7f908dae4fad96226ec2241ef, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

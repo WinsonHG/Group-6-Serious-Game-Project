@@ -135,7 +135,7 @@ public class ButtonFunctions : MonoBehaviour
     public void HighScores()
 
     {
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene("HighScores");
     }
 
 }
