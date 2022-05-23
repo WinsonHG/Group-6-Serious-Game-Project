@@ -93,7 +93,7 @@ public class ButtonFunctions : MonoBehaviour
     }
     public void WrongAnswerOption5()
     {
-        PersistentData.Instance.SetScore(17);
+        PersistentData.Instance.SetScore(20);
         SceneManager.LoadScene("level5");
 
     }

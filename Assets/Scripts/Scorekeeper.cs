@@ -27,7 +27,7 @@ public class Scorekeeper : MonoBehaviour
         if (level == 3)
             scoreThresholdForThisLevel = 16; //collect 6 coins // 16 total
         if (level == 4)
-            scoreThresholdForThisLevel = 20; //collect x coins // 17 total
+            scoreThresholdForThisLevel = 20; //collect x coins // 20 total
         if (level == 5)
             scoreThresholdForThisLevel = 26; //collect x coins // 18 total
 
