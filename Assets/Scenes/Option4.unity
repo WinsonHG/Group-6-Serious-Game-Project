@@ -762,7 +762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What are the main causes of homelessness in the US?
+  m_Text: What are the primary causes of homelessness in the US?
 --- !u!222 &614497161
 CanvasRenderer:
   m_ObjectHideFlags: 0
