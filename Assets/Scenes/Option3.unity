@@ -1040,7 +1040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How much does a homeless shelter cost per day in NYC(2021)?
+  m_Text: How much does a homeless shelter cost the city per day in NYC(2021)?
 --- !u!222 &614497161
 CanvasRenderer:
   m_ObjectHideFlags: 0
